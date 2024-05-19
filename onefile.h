@@ -57,7 +57,7 @@ namespace Game {
     void Gambar(...); // -> menggambar ascii pada kanvas layar yang diberikan
     void Gravitasi(...); // menurunan posisi burung sesuai gravitas
     void Die(); // mematikan burung (die = true)
-    void IsDie(); // mematikan burung (die = true)
+    bool IsDie(); // mengembalikan nilai die
   };
 
   class Pilar {
